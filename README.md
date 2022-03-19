@@ -12,14 +12,15 @@ This repository contains the PyTorch implementation of DuRDN.
 
 ### Citation
 If you use this code for your research or project, please cite:
-    @article{chen2021ct,
-      title={CT-free attenuation correction for dedicated cardiac SPECT using a 3D dual squeeze-and-excitation residual dense network},
-      author={Chen, Xiongchao and Zhou, Bo and Shi, Luyao and Liu, Hui and Pang, Yulei and Wang, Rui and Miller, Edward J and Sinusas, Albert J and Liu, Chi},
-      journal={Journal of Nuclear Cardiology},
-      pages={1--16},
-      year={2021},
-      publisher={Springer}
-    }
+
+        @article{chen2021ct,
+          title={CT-free attenuation correction for dedicated cardiac SPECT using a 3D dual squeeze-and-excitation residual dense network},
+          author={Chen, Xiongchao and Zhou, Bo and Shi, Luyao and Liu, Hui and Pang, Yulei and Wang, Rui and Miller, Edward J and Sinusas, Albert J and Liu, Chi},
+          journal={Journal of Nuclear Cardiology},
+          pages={1--16},
+          year={2021},
+          publisher={Springer}
+        }
  
  ### Environment and Dependencies
  Requirements:
