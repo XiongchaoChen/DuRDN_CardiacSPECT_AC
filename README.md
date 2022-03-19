@@ -26,17 +26,64 @@ If you use this code for your research or project, please cite:
  * Python 3.6.10
  * Pytorch 1.2.0
  * numpy 1.19.2
- * argparse
  * scipy
  * scikit-image
- * os
- * csv
  * h5py
  * tqdm
- * pdb
  
  Our code has been tested with Python 3.6.10, Pytorch 1.2.0, CUDA: 10.0.130 on Ubuntu 18.04.6.
  
- 
- 
+ ### Dataset Setup
+    .
+    Data
+    ├── train                # contain training files
+    |   ├── data1.h5
+    |       ├── AC.mat  
+    |       ├── NC.mat
+    |       ├── SC.mat
+    |       ├── SC2.mat
+    |       ├── SC3.mat
+    |       ├── GD.mat
+    |       ├── BMI.mat
+    |       ├── STATE.mat
+    |   └── ...  
+    |
+    ├── valid                # contain validation files
+    |   ├── data1.h5
+    |       ├── AC.mat  
+    |       ├── NC.mat
+    |       ├── SC.mat
+    |       ├── SC2.mat
+    |       ├── SC3.mat
+    |       ├── GD.mat
+    |       ├── BMI.mat
+    |       ├── STATE.mat
+    |   └── ... 
+    |
+    └── test                 # contain testing files
+        ├── data1.h5
+            ├── AC.mat  
+            ├── NC.mat
+            ├── SC.mat
+            ├── SC2.mat
+            ├── SC3.mat
+            ├── GD.mat
+            ├── BMI.mat
+            ├── STATE.mat
+        └── ... 
+
+Each .mat should contain a H x W x H float value matrix. 
+AC: Attenuation-corrected image
+NC: Non-attenuation-corrected image
+SC: The 1st Scatter-window image
+SC2: The 2nd Scatter-window image
+SC3: The 3rd Scatter-window image   
+GD: Gender encoding volume (0/1)
+BMI: BMI value volume
+State: Stress/rest value volume (0/1)
+
+### To Run the Code
+
+
+
  
