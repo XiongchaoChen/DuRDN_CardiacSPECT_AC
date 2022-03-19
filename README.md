@@ -62,17 +62,19 @@ If you use this code for your research or project, please cite:
     |   └── ... 
     |
     └── test                 # contain testing files
-        ├── data1.h5
-            ├── AC.mat  
-            ├── NC.mat
-            ├── SC.mat
-            ├── SC2.mat
-            ├── SC3.mat
-            ├── GD.mat
-            ├── BMI.mat
-            ├── STATE.mat
-        └── ... 
-
+    |   ├── data1.h5
+    |       ├── AC.mat  
+    |       ├── NC.mat
+    |       ├── SC.mat
+    |       ├── SC2.mat
+    |       ├── SC3.mat
+    |       ├── GD.mat
+    |       ├── BMI.mat
+    |       ├── STATE.mat
+    |   └── ... 
+    └── ... 
+    
+    
 Each .mat should contain a H x W x H float value matrix. 
 `AC`: Attenuation-corrected image. \
 `NC`: Non-attenuation-corrected image. \
