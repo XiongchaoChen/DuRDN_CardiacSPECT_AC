@@ -23,7 +23,19 @@ If you use this code for your research or project, please cite:
  
  ### Environment and Dependencies
  Requirements:
+ * Python 3.6.10
+ * Pytorch 1.2.0
+ * numpy 1.19.2
+ * argparse
+ * scipy
+ * scikit-image
+ * os
+ * csv
+ * h5py
+ * tqdm
+ * pdb
  
+ Our code has been tested with Python 3.6.10, Pytorch 1.2.0, CUDA: 10.0.130 on Ubuntu 18.04.6.
  
  
  
