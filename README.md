@@ -124,4 +124,8 @@ where \
 
  Sample training/testing scripts are provided at the root folder as `train_script.sh` and `train_script.sh`.
  
- 
+ ### Contact 
+If you have any question, please file an issue or contact the author:
+```
+Xiongchao Chen: xiongchao.chen@yale.edu, cxiongchao9587@gmail.com
+```
