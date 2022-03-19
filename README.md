@@ -83,29 +83,29 @@ BMI: BMI value volume
 State: Stress/rest value volume (0/1)
 
 ### To Run the Code
-- Train the model
+- Train the model \
 python train.py --experiment_name 'train_DuRDN' --model_type 'model_cnn' --data_root '../../Data/Dataset_filename/' --net_G 'DuRDN' --batch_size 2 --n_patch_train 1 --patch_size_train 32 32 32 --eval_epochs 10 --save_epochs 10 --patch_size_eval 32 32 32 --lr 5e-4 --norm 'BN' --norm_pred_AC --use_scatter --use_scatter2 --use_scatter3 --use_gender --use_bmi --use_state --gpu_ids 0
 
 where \
-'--experiment_name': experiment name for the code, and save all the training results in this under this "experiment_name" folder
-'--model_type': model type used (default convolutioanl neural networks -- "model_cnn")
-'--data_root': path of the dataset
-'--net_G': neural network model used (default: 'DuRDN')
-'--batch_size': training batch size
-'--n_patch_train': number of patches extracted from each image volume
-'--patch_size_train': training patch size
-'--eval_epochs': number of epoches for periodic validation
-'--save_epochs': number of epoches for saving trained model
-'--patch_size_eval': validation patch size
-'--lr': learning rate
-'--norm': normalization of convolutioanl layers in the networks
-'--norm_pred_AC': mean normalization of the predicted images before testing
-'--use_scatter': adding the 1st scatter-window image to input
-'--use_scatter2': adding the 2nd scatter-window image to input
-'--use_scatter3': adding the 3rd scatter-window image to input
-'--use_gender': adding gender volume to input
-'--use_bmi': adding BMI volume to input 
-'--use_state': adding stress/rest volume to input
+'--experiment_name': experiment name for the code, and save all the training results in this under this "experiment_name" folder. \
+'--model_type': model type used (default convolutioanl neural networks -- "model_cnn"). \
+'--data_root': path of the dataset. \
+'--net_G': neural network model used (default: 'DuRDN'). \
+'--batch_size': training batch size. \
+'--n_patch_train': number of patches extracted from each image volume. \
+'--patch_size_train': training patch size. \
+'--eval_epochs': number of epoches for periodic validation. \
+'--save_epochs': number of epoches for saving trained model. \
+'--patch_size_eval': validation patch size. \
+'--lr': learning rate. \
+'--norm': normalization of convolutioanl layers in the networks. \
+'--norm_pred_AC': mean normalization of the predicted images before testing. \
+'--use_scatter': adding the 1st scatter-window image to input. \
+'--use_scatter2': adding the 2nd scatter-window image to input. \
+'--use_scatter3': adding the 3rd scatter-window image to input. \
+'--use_gender': adding gender volume to input. \
+'--use_bmi': adding BMI volume to input . \
+'--use_state': adding stress/rest volume to input. \
 
 - Test the model
 python test.py \
