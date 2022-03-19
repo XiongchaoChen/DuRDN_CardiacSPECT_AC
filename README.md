@@ -112,7 +112,6 @@ where \
 `--use_bmi`: adding BMI volume to input . \
 `--use_state`: adding stress/rest volume to input. \
 `--gpu_ids`: GPU configuration.
-\
 
 - Test the model 
 ```bash
