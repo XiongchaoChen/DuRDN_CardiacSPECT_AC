@@ -31,7 +31,6 @@ If you use this code for your research or project, please cite:
  * scikit-image
  * h5py
  * tqdm
- 
  Our code has been tested with Python 3.6.10, Pytorch 1.2.0, CUDA: 10.0.130 on Ubuntu 18.04.6.
  
  ### Dataset Setup
@@ -126,7 +125,7 @@ where \
 
  Sample training/testing scripts are provided at the root folder as `train_script.sh` and `train_script.sh`.
  
- ### Contact 
+### Contact 
 If you have any question, please file an issue or contact the author:
 ```
 Xiongchao Chen: xiongchao.chen@yale.edu, cxiongchao9587@gmail.com
