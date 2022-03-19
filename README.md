@@ -77,8 +77,8 @@ Each .mat should contain a H x W x H float value matrix.
 `NC`: Non-attenuation-corrected image. \
 `SC`: The 1st Scatter-window image. \
 `SC2`: The 2nd Scatter-window image. \
-`SC3`: The 3rd Scatter-window image. \   
-`GD`: Gender encoding volume (0/1). \
+`SC3`: The 3rd Scatter-window image. 
+`GD`: Gender encoding volume (0/1). 
 `BMI`: BMI value volume. \
 `State`: Stress/rest value volume (0/1). \
 
