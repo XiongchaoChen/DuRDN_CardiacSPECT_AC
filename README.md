@@ -86,6 +86,8 @@ Each .mat should contain a H x W x H float value matrix.
 `State`: Stress/rest value volume (0/1). 
 
 ### To Run the Code
+Sample training/testing scripts are provided at the root folder as `train_script.sh` and `train_script.sh`.
+ 
 - Train the model 
 ```bash
 python train.py --experiment_name 'train_DuRDN' --model_type 'model_cnn' --data_root '../../Data/Dataset_filename/' --net_G 'DuRDN' --batch_size 2 --n_patch_train 1 --patch_size_train 32 32 32 --eval_epochs 10 --save_epochs 10 --patch_size_eval 32 32 32 --lr 5e-4 --norm 'BN' --norm_pred_AC --use_scatter --use_scatter2 --use_scatter3 --use_gender --use_bmi --use_state --gpu_ids 0
@@ -123,8 +125,6 @@ where \
 `resume_epoch`: training epoch of the model to be tested. \
 `--experiment_name`: experiment name for the code, and save all the testing results in this under this "experiment_name" folder. \
 `--patch_size_eval`: testing patch size. 
-
- Sample training/testing scripts are provided at the root folder as `train_script.sh` and `train_script.sh`.
  
 ### Contact 
 If you have any question, please file an issue or contact the author:
