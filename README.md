@@ -1,5 +1,7 @@
 # CT-free attenuation correction for dedicated cardiac SPECT using a 3D dual squeeze-and-excitation residual dense network
 
+![image](https://github.com/XiongchaoChen/DuRDN_AttenuationCorrection/tree/main/IMAGE/DuRDB.png)
+
 Xiongchao Chen, Bo Zhou, Luyao Shi, Hui Liu, Yulei Pang, Rui Wang, Edward J Miller, Albert J Sinusas, Chi Liu
 
 Journal of Nuclear Cardiology. 2021 Jun 3:1-6.
