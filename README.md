@@ -120,19 +120,8 @@ where \
 `resume`: path of the model to be tested
 `resume_epoch`: training epoch of the model to be tested
 `--experiment_name`: experiment name for the code, and save all the testing results in this under this "experiment_name" folder. \
-`--model_type`: model type used (default convolutioanl neural networks -- "model_cnn"). \
-`--data_root`: path of the dataset. \
-`--net_G`: neural network model used (default: 'DuRDN'). \
 `--patch_size_eval`: testing patch size. \
-`--lr`: learning rate. \
-`--norm`: normalization of convolutioanl layers in the networks. \
-`--norm_pred_AC`: mean normalization of the predicted images before testing. \
-`--use_scatter`: adding the 1st scatter-window image to input. \
-`--use_scatter2`: adding the 2nd scatter-window image to input. \
-`--use_scatter3`: adding the 3rd scatter-window image to input. \
-`--use_gender`: adding gender volume to input. \
-`--use_bmi`: adding BMI volume to input . \
-`--use_state`: adding stress/rest volume to input. \
-`--gpu_ids`: GPU configuration.
 
+ Sample training/testing scripts are provided at the root folder as `train_script.sh` and `train_script.sh`.
+ 
  
