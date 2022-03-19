@@ -73,14 +73,14 @@ If you use this code for your research or project, please cite:
         └── ... 
 
 Each .mat should contain a H x W x H float value matrix. 
-AC: Attenuation-corrected image. \
-NC: Non-attenuation-corrected image. \
-SC: The 1st Scatter-window image. \
-SC2: The 2nd Scatter-window image. \
-SC3: The 3rd Scatter-window image. \   
-GD: Gender encoding volume (0/1). \
-BMI: BMI value volume. \
-State: Stress/rest value volume (0/1). \
+`AC`: Attenuation-corrected image. \
+`NC`: Non-attenuation-corrected image. \
+`SC`: The 1st Scatter-window image. \
+`SC2`: The 2nd Scatter-window image. \
+`SC3`: The 3rd Scatter-window image. \   
+`GD`: Gender encoding volume (0/1). \
+`BMI`: BMI value volume. \
+`State`: Stress/rest value volume (0/1). \
 
 ### To Run the Code
 - Train the model \
