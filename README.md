@@ -86,7 +86,7 @@ Each .mat should contain a H x W x H float value matrix.
 `State`: stress/rest value volume (0/1). 
 
 ### To Run the Code
-Sample training/testing scripts are provided at the root folder as `train_script.sh` and `train_script.sh`.
+Sample training/testing scripts are provided at the root folder as `train_script.sh` and `test_script.sh`.
  
 - Train the model 
 ```bash
@@ -96,6 +96,7 @@ python train.py --experiment_name 'train_DuRDN' --model_type 'model_cnn' --data_
 where \
 `--experiment_name` experiment name for the code, and save all the training results in this under this "experiment_name" folder. \
 `--model_type`: model type used (default convolutioanl neural networks -- "model_cnn"). \
+`--dataset`: dataset type. \
 `--data_root`: path of the dataset. \
 `--net_G`: neural network model used (default: 'DuRDN'). \
 `--batch_size`: training batch size. \
