@@ -75,7 +75,7 @@ If you use this code for your research or project, please cite:
     └── ... 
     
     
-Each .mat should contain a H x W x H float value matrix. 
+Each .mat should contain a H x W x H float value matrix. \
 `AC`: attenuation-corrected image. \
 `NC`: non-attenuation-corrected image. \
 `SC`: the 1st Scatter-window image. \
